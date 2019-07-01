@@ -39,8 +39,11 @@ public class ExamenArraylist {
                 cont++;
             }
             
-            System.out.println(nombre.get(i) + " " + velocidad.get(i) + " " + tiempo.get(i));
+            System.out.println("Nombre: "+ nombre.get(i) + " " + " Velocidad: "+ velocidad.get(i) + " " +"Tiempo: "+ tiempo.get(i));
         } 
+        System.out.println("Alumno mas rapido: " + nombre.get(mejortiem) + "  "+"Tiempo: " + tiempo.get(mejortiem) +"  "+"Velocidad: " + velocidad.get(mejortiem));
+        System.out.println("Promedio: " + guard);
+        System.out.println("Estudiantes por arriba del promedio: " + cont);
 
     }
     
